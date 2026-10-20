@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fizo-orientir.opal-cod-1855.chatgpt.site/sitemap.xml
