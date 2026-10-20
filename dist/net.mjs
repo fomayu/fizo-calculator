@@ -1,0 +1,1 @@
+export function netAllowance(gross){if(!Number.isFinite(gross)||gross<0)throw Error('Некорректная сумма');const net=Math.round((gross+Number.EPSILON)*87)/100;return{gross,net,tax:Math.round((gross-net)*100)/100,annual:Math.round(net*1200)/100};}
